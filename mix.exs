@@ -31,7 +31,7 @@ defmodule Exmoji.Mixfile do
   end
 
   def application do
-    [applications: []]
+    []
   end
 
   defp deps do
