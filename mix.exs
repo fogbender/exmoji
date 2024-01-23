@@ -1,8 +1,8 @@
 defmodule Exmoji.Mixfile do
   use Mix.Project
 
-  @source_url "https://github.com/mroth/exmoji"
-  @version "0.3.0"
+  @source_url "https://github.com/fogbender/exmoji"
+  @version "0.3.1"
 
   def project do
     [
