@@ -2,7 +2,7 @@ defmodule Exmoji.Mixfile do
   use Mix.Project
 
   @source_url "https://github.com/fogbender/exmoji"
-  @version "0.3.1"
+  @version "0.3.2"
 
   def project do
     [
@@ -31,12 +31,12 @@ defmodule Exmoji.Mixfile do
   end
 
   def application do
-    [applications: []]
+    []
   end
 
   defp deps do
     [
-      {:jason, "~> 1.2"},
+      {:jason, "~> 1.4"},
       {:excoveralls, "~> 0.6", only: :dev},
       {:benchfella, "~> 0.3", only: :dev},
       {:earmark, "~> 1.1", only: :dev},
