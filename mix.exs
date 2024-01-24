@@ -6,7 +6,7 @@ defmodule Exmoji.Mixfile do
 
   def project do
     [
-      app: :exmoji,
+      app: :exmoji_fogbender,
       version: @version,
       elixir: "~> 1.4",
       test_coverage: [tool: ExCoveralls],
